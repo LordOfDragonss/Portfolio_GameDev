@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50fc9ef28041c54fb8e3e12d08018b9, type: 3}
+  m_Name: Light Attack
+  m_EditorClassIdentifier: 
+  sfx:
+  - {fileID: 8300000, guid: 594fa31079c9c394cabb78e5ae0ad031, type: 3}
+  - {fileID: 8300000, guid: a3556cd80b0429249bc5ffdde998df68, type: 3}
+  - {fileID: 8300000, guid: a149912160c788d48a84b02c34b1351c, type: 3}
+  InGameName: 
+  Damage: 4
+  Type: 0
+  AnimationName: Melee Attack
+  ForceStandStill: 0
+  IsCancelable: 0
+  missSfx:
+  - {fileID: 8300000, guid: 7e493c9617dc28b44855c8fb42955807, type: 3}
+  - {fileID: 8300000, guid: 017a4759c5821484db669e1da50cc4d3, type: 3}

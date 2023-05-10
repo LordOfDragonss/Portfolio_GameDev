@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a0d584a1242094b8e761124c26baca, type: 3}
+  m_Name: Heal Move
+  m_EditorClassIdentifier: 
+  sfx:
+  - {fileID: 8300000, guid: a9252bc049935e34f84d3b3767b25121, type: 3}
+  InGameName: Grandma's Holy Cookies
+  Damage: 50
+  Type: 2
+  AnimationName: Heal
+  ForceStandStill: 1
+  IsCancelable: 1
+  healthParticleSystem: {fileID: 1278948424044078868, guid: 20b8c80a47250214aad761989646a601, type: 3}

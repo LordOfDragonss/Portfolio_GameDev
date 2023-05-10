@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50fc9ef28041c54fb8e3e12d08018b9, type: 3}
+  m_Name: Heavy Attack
+  m_EditorClassIdentifier: 
+  sfx:
+  - {fileID: 8300000, guid: 1b9d12bde0b1cf8439d4bd4aa27adcb1, type: 3}
+  - {fileID: 8300000, guid: b6d104fcf892bf548a885a409f19d6c6, type: 3}
+  InGameName: 
+  Damage: 7
+  Type: 1
+  AnimationName: Heavy Attack
+  ForceStandStill: 1
+  IsCancelable: 0
+  missSfx:
+  - {fileID: 8300000, guid: a2e37ff5ddaa41a46a2f88557fb9005c, type: 3}
